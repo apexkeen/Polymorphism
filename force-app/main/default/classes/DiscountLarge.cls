@@ -5,8 +5,8 @@ public with sharing class DiscountLarge implements Idiscount {
         this.opp = opp;
     }
 
-    public DiscountLarge(){
-        
+    public DiscountLarge(){ 
+
     }
 
 

@@ -1,4 +1,4 @@
 public Interface Idiscount {
    
-   Decimal  calculateDiscount();
+   Decimal  calculateDiscount();  
 }

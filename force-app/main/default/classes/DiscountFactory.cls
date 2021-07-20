@@ -1,7 +1,7 @@
 public with sharing class DiscountFactory {
     
 
-    public static Idiscount intiateDiscountHandler(Opportunity opp){
+    public static Idiscount intiateDiscountHandler(Opportunity opp){ 
         
         // Switch on opp.newSObject() {
         //     when opp.amount >10000{

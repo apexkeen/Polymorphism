@@ -1,8 +1,8 @@
 public with sharing class DiscountCalculator {
     
-    public Idiscount  clsDiscount;
+    public Idiscount  clsDiscount; 
     private Opportunity opp;
-    public DiscountCalculator(Opportunity opp) {
+    public DiscountCalculator(Opportunity opp) { 
             this.opp = opp;
             this.clsDiscount  = DiscountFactory.intiateDiscountHandler(opp);
     }

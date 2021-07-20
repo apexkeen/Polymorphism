@@ -1,7 +1,7 @@
 public with sharing class DiscountSmall implements Idiscount {
     
     private Opportunity opp;
-    public DiscountSmall(Opportunity opp) {
+    public DiscountSmall(Opportunity opp) { 
         this.opp = opp;
 
     }
