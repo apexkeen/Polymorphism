@@ -9,8 +9,7 @@ public with sharing class DiscountLarge implements Idiscount {
 
     }
 
-
-    public decimal calculateDiscount(){
+    public decimal calculateDiscount(Opportunity opp){
 
         return opp.amount- opp.amount*0.1;
 
